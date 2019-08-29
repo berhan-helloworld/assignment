@@ -16,7 +16,7 @@ function checkNumber(number1,number2)
 }
 
 //3.Write a JavaScript program to create a new string adding "py" in front of a given string. If the given string begins With "py" then return the onginal string
-function checkStr(str)
+function checkStr(string)
 {
     
    return(string[0]==="p" && string[1]==="y")? string : "py" + string;
